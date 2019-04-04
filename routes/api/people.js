@@ -77,9 +77,9 @@ router.get('/:id', async(req, res) => {
     }
 });
 
-router.get('/list/all', async(req, res) => {
-    res.send(userdata.userList);
-});
+// router.get('/list/all', async(req, res) => {
+//     res.send(userdata.userList);
+// });
 
 module.exports = router;
 
